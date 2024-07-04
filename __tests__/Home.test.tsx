@@ -17,8 +17,8 @@ describe('Home Screen', () => {
     it('renders correctly', () => {
       const { getByPlaceholderText, getByText } = render(<Home />);
       
-      expect(getByPlaceholderText('Search...')).toBeTruthy(); // Corregido el placeholder
-      expect(getByText('Agregar')).toBeTruthy(); // Corregido el texto esperado
+      expect(getByPlaceholderText('Search...')).toBeTruthy();
+      expect(getByText('Agregar')).toBeTruthy();
     });
   });
   

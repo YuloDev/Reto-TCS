@@ -48,7 +48,7 @@ describe('ProductList component', () => {
     );
   
     await waitFor(() => {
-      expect(getProducts).toHaveBeenCalled(); // Cambiamos esto para que solo verifique que se llamó, sin especificar cuántas veces
+      expect(getProducts).toHaveBeenCalled();
     });
   
     expect(await findByText('Product 1')).toBeTruthy();
