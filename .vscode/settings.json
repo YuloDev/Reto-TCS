@@ -1,0 +1,5 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "cmake.sourceDirectory": "C:/Users/santi/Autenticador/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup"
+}

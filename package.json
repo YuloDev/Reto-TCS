@@ -1,0 +1,63 @@
+{
+  "name": "Autenticador",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint .",
+    "start": "react-native start",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.4.1",
+    "@fortawesome/react-native-fontawesome": "^0.3.2",
+    "@react-native-community/datetimepicker": "^4.1.1",
+    "@react-navigation/native": "^6.1.4",
+    "@react-navigation/native-stack": "^6.2.5",
+    "react": "18.2.0",
+    "react-native": "0.74.0",
+    "react-native-paper": "^4.10.1",
+    "react-native-safe-area-context": "^3.3.0",
+    "react-native-screens": "^3.10.1",
+    "react-native-svg": "^12.1.0",
+    "react-native-vector-icons": "^8.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "@babel/runtime": "^7.12.5",
+    "@react-native/babel-preset": "0.2.1",
+    "@react-native/eslint-config": "0.0.7",
+    "@react-native/metro-config": "^0.66.4",
+    "@react-native/typescript": "^4.3.6",
+    "@testing-library/jest-native": "^4.0.1",
+    "@testing-library/react-native": "^7.2.0",
+    "@types/jest": "^27.0.2",
+    "@types/react": "^17.0.0",
+    "@types/react-test-renderer": "^17.0.1",
+    "babel-jest": "^27.4.6",
+    "eslint": "^8.7.0",
+    "jest": "^27.4.7",
+    "metro-react-native-babel-preset": "^0.66.4",
+    "prettier": "^2.4.1",
+    "react-test-renderer": "17.0.2",
+    "typescript": "^4.4.4"
+  },
+  "engines": {
+    "node": ">=14.x"
+  },
+  "jest": {
+    "preset": "react-native",
+    "setupFilesAfterEnv": [
+      "@testing-library/jest-native/extend-expect"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!(@react-native|react-native)/)"
+    ],
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
